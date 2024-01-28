@@ -1,0 +1,28 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video teste",
+    "description": "Horraaaable!",
+    "duration": 550
+}
+
+###
+
+GET http://localhost:3333/videos
+
+### 
+
+PUT http://localhost:3333/videos/cbe07d9c-1be6-447a-a840-7ad178e172e4
+Content-Type: application/json
+
+{
+    "title": "Car Mechanics Advice",
+    "description": "cyka blyat ina hoy",
+    "duration": 200
+}
+
+
+###
+
+DELETE http://localhost:3333/videos/a5768b44-4803-4ec5-8f15-0e92db132211

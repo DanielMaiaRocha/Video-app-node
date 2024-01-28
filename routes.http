@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://api-node-5cvl.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://api-node-5cvl.onrender.com/videos
 
 ### 
 
-PUT http://localhost:3333/videos/cbe07d9c-1be6-447a-a840-7ad178e172e4
+PUT https://api-node-5cvl.onrender.com/videos/cb502710-cf5a-4082-a75d-f0c7d359bdf2
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/a5768b44-4803-4ec5-8f15-0e92db132211
+DELETE https://api-node-5cvl.onrender.com/videos/cb502710-cf5a-4082-a75d-f0c7d359bdf2
